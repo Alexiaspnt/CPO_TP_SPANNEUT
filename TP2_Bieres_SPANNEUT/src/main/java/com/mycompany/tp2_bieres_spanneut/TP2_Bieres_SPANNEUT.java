@@ -17,17 +17,26 @@ public class TP2_Bieres_SPANNEUT {
         BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls",7 ,"Dubuisson") ;
         System.out.println(uneBiere) ;
         uneBiere.ouverte=false;
-        //uneBiere.decapsuler();
+        uneBiere.decapsuler();
         uneBiere.lireEtiquette();
+        System.out.println(uneBiere);
         
         BouteilleBiere secondeBiere = new BouteilleBiere("Leffe",6 ,"Abbaye de Leffe") ;
         secondeBiere.lireEtiquette();
+        secondeBiere.decapsuler();
+        System.out.println(secondeBiere);
         
         BouteilleBiere troisiemeBiere = new BouteilleBiere("Leffe",6 ,"Abbaye de Leffe") ;
         troisiemeBiere.lireEtiquette();
+        troisiemeBiere.decapsuler();
+        System.out.println(troisiemeBiere);
         
         BouteilleBiere quatriemeBiere = new BouteilleBiere("Leffe",6 ,"Abbaye de Leffe") ;
         quatriemeBiere.lireEtiquette();
+        quatriemeBiere.decapsuler();
+        System.out.println(quatriemeBiere);
+        
+        
 
     }
 }
